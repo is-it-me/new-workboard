@@ -1,0 +1,81 @@
+a {
+    text-decoration: none;
+}
+  .textImage {
+    width: 100%;
+    height: 100vh;
+  }
+  .textImage h1 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 75px;
+    color: #464343;
+  }
+  .textImage P {
+    color: #8F8F8F;
+    margin: 40px 0 0 0;
+    
+font-weight: 300;
+font-size: 18px;
+line-height: 27px;
+  }
+  .textImage .btn-get-started {
+    margin-top: 30px;
+    line-height: 0;
+    padding: 15px 40px;
+    border-radius: 10px;
+    transition: 0.5s;
+    color: #fff;
+    background: #FF7F58;
+    box-shadow: 0px 5px 30px rgba(65, 84, 241, 0.4);
+  }
+  .textImage .btn-get-started span {
+    font-weight: 300;
+font-size: 18px;
+line-height: 27px;
+  }
+  .textImage .btn-get-started i {
+    margin-left: 5px;
+    font-size: 18px;
+    transition: 0.3s;
+  }
+  .textImage .btn-get-started:hover i {
+    transform: translateX(5px) scale(1.5);
+  }
+  .textImage .textImage-img {
+    text-align: right;
+  }
+  @media (min-width: 1024px) {
+    .textImage {
+      background-attachment: fixed;
+    }
+  }
+  @media (max-width: 991px) {
+    .textImage {
+      height: auto;
+      padding: 120px 0 60px 0;
+    }
+    .textImage .textImage-img {
+      text-align: center;
+      margin-top: 80px;
+    }
+    .textImage .textImage-img img {
+      width: 80%;
+    }
+  }
+  @media (max-width: 768px) {
+    .textImage {
+      text-align: center;
+    }
+    .textImage h1 {
+      font-size: 32px;
+    }
+    .textImage h2 {
+      font-size: 24px;
+    }
+    .textImage .textImage-img img {
+      width: 100%;
+    }
+  }
+  

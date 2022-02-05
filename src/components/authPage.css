@@ -1,0 +1,82 @@
+.company {
+    color: #FF7F58;
+}
+
+
+.login-page {
+    background-color: #eee;
+    }
+    
+    .img-left {
+        width: 185px;
+    }
+    .gradient-custom-2 {
+        justify-content: center;
+        
+    /* fallback for old browsers */
+    background: #fccb90;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #E45023, #e45023);
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #ee7724, #d8363a, #E45023, #FF7F58);}
+
+    .text-white {
+        background: rgba(0,0,0, .4);
+        border-radius: 10px;
+    }
+.text-white p {
+    font-size: 50px;
+line-height: 75px;
+text-align: center;
+}
+
+
+.auth-form input {
+    margin-bottom: 5vh;
+    background: #F2F2F2;
+    border-radius: 6px;
+    height: 8vh;
+    border: 0;
+    align-items: center;
+}
+
+.forgot-link, .forgot-link:hover {
+  text-align: right;
+  width: 100%;
+  color: #FF7F58;
+  float: right;
+}
+
+
+.social-links a {
+  margin-right: 2vw;
+}
+
+
+
+
+.auth-page {
+  height: 100vh;
+}
+
+
+
+
+
+
+
+
+      
+      @media (min-width: 768px) {
+        .gradient-form {
+          height: 100vh !important;
+        }
+      }
+      @media (min-width: 769px) {
+        .gradient-custom-2 {
+          border-top-right-radius: .3rem;
+          border-bottom-right-radius: .3rem;
+        }
+      }

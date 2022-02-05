@@ -1,0 +1,18 @@
+.navbar .container-fluid .company {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  color: #FF7F58;
+  }
+
+  .navbar .container-fluid .navbar-nav .nav-item {
+    margin-right: 3vw;
+  }
+  
+  
+  .navbar .container-fluid .navbar-nav .nav-item .nav-link {
+      color: #FF7F58;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 30px;
+  }
